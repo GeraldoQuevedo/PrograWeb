@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.formulario {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo label {
+    font-size: 14px;
+    color: #666;
+}
+
+.recordar {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+.registrarse {
+    text-align: center;
+    font-size: 14px;
+}
+
+.registrarse a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.error {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+/* Estilos generales */
+
+.carrusel-container {
+    max-width: 900px; /* Define el ancho máximo del carrusel */
+    margin: auto; /* Centra el carrusel horizontalmente */
+    margin: 4px; /* Añade un margen uniforme alrededor del carrusel */
+}
+
+.carousel-inner {
+    text-align: center; /* Alinea las imágenes al centro del carrusel */
+}
+
+.carousel-item img {
+    max-width: 700px; /* Define el ancho máximo de las imágenes */
+    max-height: 400px; /* Define la altura máxima de las imágenes */
+    width: auto; /* Ajusta automáticamente el ancho de la imagen para mantener la proporción */
+    height: auto; /* Ajusta automáticamente la altura de la imagen para mantener la proporción */
+    margin: auto; /* Centra la imagen horizontalmente */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+body {
+    background-color: rgb(255, 2, 2);
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    background-color: rgb(239, 127, 200);
+    max-width: 1000px;
+    padding: 100px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
