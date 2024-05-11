@@ -26,15 +26,26 @@ header {
 }
 
 body {
-    background-color: rgb(255, 2, 2);
+    
     font-family: sans-serif;
+    background: #f4c4f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .container {
     margin: auto;
-    background-color: rgb(239, 127, 200);
+   
     max-width: 1000px;
     padding: 100px;
+  
+
+    background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 ul,
@@ -42,4 +53,25 @@ li {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+#contenedor {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+#caja1 {
+    background-color: black;
+    color:azure;    
+}
+#caja2 {
+    background-color: darkslateblue;
+    color:azure;    
+}
+#caja3 {
+    background-color: #2ab2ea;
+    color:azure;    
 }
